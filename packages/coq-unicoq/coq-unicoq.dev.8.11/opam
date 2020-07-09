@@ -6,7 +6,7 @@ homepage: "https://github.com/unicoq/unicoq"
 bug-reports: "https://github.com/unicoq/unicoq/issues"
 license: "MIT"
 build: [
-  ["coq_makefile" "-f" "Make" "-o" "Makefile"]
+  ["coq_makefile" "-f" "_CoqProject" "-o" "Makefile"]
   [make "-j%{jobs}%"]
 ]
 install: [
