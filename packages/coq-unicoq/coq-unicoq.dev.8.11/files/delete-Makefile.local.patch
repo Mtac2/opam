@@ -1,5 +1,5 @@
++++ b/Makefile.local
 --- a/Makefile.local
-+++ /dev/null
 @@ -1,4 +0,0 @@
 -CAMLPKGS = $(if $(filter %.cmxa,$@),,-package num)
 -
