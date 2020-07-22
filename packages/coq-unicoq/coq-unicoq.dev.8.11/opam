@@ -16,7 +16,7 @@ depends: [
   "coq" {>= "8.11.0" & < "8.12~" | = "dev" }
 ]
 patches: [
-  "files/delete-Makefile.local.patch"
+  "delete-Makefile.local.patch"
 ]
 synopsis: "An enhanced unification algorithm for Coq"
 url {
