@@ -1,6 +1,3 @@
-diff --git a/Makefile.local b/Makefile.local
-deleted file mode 100644
-index b4fe6cf..0000000
 --- a/Makefile.local
 +++ /dev/null
 @@ -1,4 +0,0 @@
